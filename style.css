@@ -1,3 +1,20 @@
 .hidden{
     display:none;
 }
+#clock{
+    text-align: center;
+}
+div, form,h1,ul,li{
+    text-align: center;
+}
+#background{
+background-size: cover;
+}
+body{
+   justify-content: center;
+   margin-top: 80px;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
