@@ -21,3 +21,14 @@ ul{
 #todo-form input{
    width: 60%; height: 50px;text-align: center
 }
+
+/*
+body{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: fill;
+}
+
+*/
