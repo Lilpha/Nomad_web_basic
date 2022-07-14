@@ -2,10 +2,10 @@ window.onload=getExif;
 
 function getExif() {
     var img2 = document.getElementById("img2");
+    //기존에 이미지를 불러오는 방법
     EXIF.getData(img2, function() {
         var allMetaData = EXIF.getAllTags(this);
         var allMetaDataSpan = document.getElementById("allMetaDataSpan");
-        allMetaDataSpan.innerHTML = JSON.stringify(allMetaData, null, "\t");
         console.log(allMetaDataSpan); //span에 텍스트상태
         console.log(allMetaData)//object상태
         console.log(Object.entries(allMetaData)); //array형태
