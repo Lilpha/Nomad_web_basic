@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Momentum App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
 </head>
 <body>
     <div id ="weather">
@@ -20,7 +21,7 @@
         type="text" placeholder="What is your name? "/>
         <input type="submit" value="log In" />
     </form> 
-    <h1 id ="greeting" class = "hidden"></h1>
+    <h1 id ="greeting" class = "hidden DancingScript-font"></h1>
     <h2 id="clock">00:00:00</h2>
     <form id ="todo-form">
         <input type="text" placeholder="Write a To Do and Press Enter" required />
@@ -31,14 +32,18 @@
         <br>
         <span style="font-size: 17px;"></span>
     </div>
+    <div id="hyperLink">
+    <h5  style="display: inline;">이 사이트의 제작자는 김성호 입니다. 다른 사이트가 보고싶다면</h5> 
+    <a href="https://www.naver.com" style="font-size: 13px;">사이트맵</a>
+    <h5 style="display: inline;"> 으로 이동하기.</h5>
+    </div>
     
-   
     <script src="js/greeting.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
    <script id = "background" src="js/background.js"></script> 
     <script src="js/todo.js"></script>
-    <script src="weather.js"></script>
+    <script src="js/weather.js"></script>
 
 </body>
 

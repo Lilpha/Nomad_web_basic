@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Amarillo";
+    src: url('fonts/Amarillo.ttf')format('truetype')
+}
+.Amarillo-font{
+    font-family: Amarillo, sans-serif;
+}
+@font-face {
+    font-family: "DancingScript";
+    src: url('fonts/DancingScript.ttf') format('truetype');
+}
+.DancingScript-font{
+    font-family: DancingScript, sans-serif;
+    font-size: 70px;
+}
+@font-face {
+    font-family: "NanumGothicBold";
+    src: url('fonts/NanumGothicBold.ttf') format('truetype');
+}
+#todo-list li span{
+    font-family: NanumGothicBold, sans-serif;
+}
+
+.NanumGoticBold{
+    font-family: NanumGothicBold, sans-serif;
+}

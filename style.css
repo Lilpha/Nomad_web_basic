@@ -1,3 +1,4 @@
+
 .hidden{
     display:none;
 }
@@ -6,6 +7,13 @@
 }
 div, form,h1,ul,li{
     text-align: center; color: aliceblue;
+}
+
+#hyperLink{
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 #background{
 background-size: cover;
@@ -36,4 +44,17 @@ body{
     position: fixed;
     top: 30px;
     right: 30px;
+}
+a{
+    text-decoration-line: none;
+    
+}
+a:link{
+    color: aliceblue;
+}
+a:visited{
+    color: aliceblue;
+}
+a:hover{
+    color: aqua;
 }
