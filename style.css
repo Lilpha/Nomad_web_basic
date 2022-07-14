@@ -4,6 +4,10 @@
 }
 #clock{
     text-align: center;
+    font-family: Digi, sans-serif;
+    font-size: 3.5em;
+    color:#FFE5D6;
+    text-shadow: 2px 2px rgb(154, 104, 104);
 }
 div, form,h1,ul,li{
     text-align: center; color: aliceblue;
@@ -14,6 +18,7 @@ div, form,h1,ul,li{
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
+    font-family: NanumGothic;
 }
 #background{
 background-size: cover;

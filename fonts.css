@@ -24,3 +24,11 @@
 .NanumGoticBold{
     font-family: NanumGothicBold, sans-serif;
 }
+@font-face {
+    font-family: "Digi";
+    src: url('/fonts/DS-DIGI.TTF') format(truetype);
+}
+@font-face {
+    font-family: NanumGothic;
+    src: url(fonts/NanumGothic.ttf) format(truetype);
+}
