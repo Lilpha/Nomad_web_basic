@@ -17,8 +17,9 @@ function getExif() {
            GpsLoaction = GpsLoaction.replace(/\]/g,'');
         console.log(GpsLoaction);//37 32 48.2 127 3 55.9
 
-        document.getElementById('abc').herf =`https://maps.google.com/place"${GpsLoaction}`;
-      
+        document.getElementById("abc").href = `https://maps.google.com/place/${GpsLoaction}`;
+    
+      console.log(`https://maps.google.com/place/${GpsLoaction}`);
        }
         
 
